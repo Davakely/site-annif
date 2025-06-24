@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Joyeux Anniversaire</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <!-- Section 1: Hero avec titre et image -->
+  <section id="hero">
+    <h1>🎉 Joyeux Anniversaire Valisoa! 🎂</h1>
+    <div class="image_droite"><img src="image/IMG-20250509-WA0022.jpg" alt="Photo principale">
+    <img src="image/IMG-20250429-WA0003 - Copie.jpg" alt="Photo principale">
+    <img src="image/IMG-20250425-WA0014 - Copie - Copie.jpg" alt="photo principale">
+    </div> </section>
+
+  <!-- Section 2: Texte de vœux -->
+  <section id="voeux">
+    <p>Joyeux anniversaire, ma grande sœur adorée et ma meilleur amie aussi avec qui je partage mes joies mes tristesses et mes problèmes , qui arrive toujours à surmonter mon morale à me soutenir dans les moments difficiles. Que cette journée soit remplie de joie, de surprises et de douceur...Profite bien de ta journée même tu fais le SMOTIG durant 1 mois. De reto misy souvenir kely ee </p>
+  </section>
+
+  <!-- Section 3: Compte à rebours -->
+  <section id="countdown">
+    <div id="timer">
+      <span id="days">00</span> jours 
+      <span id="hours">00</span> h 
+      <span id="minutes">00</span> min 
+      <span id="seconds">00</span> s
+    </div>
+  </section>
+
+  <!-- Section 4: Galerie d’images -->
+  <section id="gallery">
+  <div class="photo-card">
+    <img src="image/IMG-20250425-WA0001 - Copie - Copie.jpg" alt="Photo 1">
+    <div class="anecdote">
+      <h3>forme</h3>
+      <p>Izy koa aloha de dedaka amle vatany nefa de kely anie izy. Fa fier be izy amle taille fine ka.</p>
+    </div>
+  </div>
+
+  <div class="photo-card">
+    <img src="image/IMG-20250429-WA0015 - Copie (2).jpg" alt="Photo 2">
+    <div class="anecdote">
+      <h3> orona be</h3>
+      <p>Fa zany hoe mba nagneva anazy le orona.Fa zany hoe tsy fantatra na lelo aby anatiny ao na inona fa defa tsy hitantsika e.</p>
+    </div>
+  </div>
+
+  <div class="photo-card">
+    <img src="image/IMG-20250426-WA0029 - Copie (2).jpg" alt="Photo 3">
+    <div class="anecdote">
+      <h3>vazah</h3>
+      <p>Raha olona tsy mahalala anazy aloha no mijery anito sary de hoe vazah io. na le trano ary tena hoe tranom-bazah.</p>
+    </div>
+  </div>
+  <div class="photo-card">
+    <img src="image/IMG-20250509-WA0028 - Copie.jpg" alt="Photo 4">
+    <div class="anecdote">
+      <h3>Be maso</h3>
+      <p>Nividianako solomaso mintsy amzay mba takona le maso be. Fa sady cadeau d'Anniversaireiny fa lasa alohakely foutsiny an. Mba mahatsiaro anle zavatra noteneniko ko amzay refa manao aniny.</p>
+    </div>
+  </div>
+  <div class="photo-card">
+    <img src="image/IMG-20250426-WA0002 - Copie - Copie.jpg" alt="Photo 3">
+    <div class="anecdote">
+      <h3>Kaly</h3>
+      <p>Tsisy anle sarintsika mikalikaly be reny aty fa defa io solony. Io misy akoho nohanin'ny saka. Sedap tsisy anana.haha</p>
+    </div>
+  </div>
+  <div class="photo-card">
+    <img src="image/ChatGPT Image 24 juin 2025, 21_50_17.png" alt="Photo 3">
+    <div class="anecdote">
+      <h3>Cartes</h3>
+      <p>Ito ndray mampatsiahy anle tsika nilalao trou de cul, uno, Nampalahelo le zoky anakiroa trou de cul foana tamnito.haha</p>
+
+    </div>
+  </div>
+
+</section>
+
+
+  <!-- Section 5: Musique en fond -->
+  <audio id="myAudio" autoplay loop muted>
+  <source src="musique/ad6236ac0c07c4d91689529ff8ea4f4f_1750782811337.mp3"audio/mpeg">
+</audio>
+
+<script>
+  window.addEventListener("load", function() {
+    const audio = document.getElementById("myAudio");
+    audio.muted = false;
+    audio.play().catch(e => console.log("Autoplay bloqué :", e));
+  });
+</script>
+
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
